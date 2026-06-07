@@ -23,7 +23,7 @@ export default function App() {
   const [selectedCertificate, setSelectedCertificate] = useState<CertificateData | null>(null);
 
   // Profile image generated previously
-  const profileImgUrl = "/src/assets/images/my photo.jpeg";
+  const profileImgUrl = "/my-photo.jpg";
 
   // Typing Role Effect State
   const roles = [
